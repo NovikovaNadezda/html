@@ -1,0 +1,43 @@
+:root,
+body,
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: salmon;
+}
+.tab-root {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 500px;
+}
+.tab-root,
+.tab-content,
+.tab-label-wrapper {
+  background-color: black;
+  color: white;
+}
+.tab-content {
+  height: 500px;
+  background-color: violet;
+}
+.tab-label-wrapper {
+  position: absolute;
+  top: -50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
